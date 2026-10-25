@@ -1,5 +1,5 @@
 - id: prkv
-  title: "PRKV: Page Restructed KV Cache for High Accuracy and Efficiency LLM Generation"
+  title: "PRKV: Page Restructured KV Cache for High Accuracy and Efficiency LLM Generation"
   year: 2026
   venue: EMNLP 2026
   authors:
@@ -22,7 +22,7 @@
     and reports up to a 6.75× speedup over state-of-the-art KV retrieval methods.
   bibtex: |
     @inproceedings{wu-etal-2026-prkv,
-      title = {{PRKV}: Page Restructed {KV} Cache for High Accuracy and Efficiency {LLM} Generation},
+      title = {{PRKV}: Page Restructured {KV} Cache for High Accuracy and Efficiency {LLM} Generation},
       author = {Wu, Fang and Gao, Congming and Zhu, Weixi and Shu, Jiwu},
       booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
       month = oct,
