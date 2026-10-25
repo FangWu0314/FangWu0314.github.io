@@ -1,3 +1,38 @@
+- id: prkv
+  title: "PRKV: Page Restructed KV Cache for High Accuracy and Efficiency LLM Generation"
+  year: 2026
+  venue: EMNLP 2026
+  authors:
+    - name: Fang Wu
+      self: true
+    - name: Congming Gao
+    - name: Weixi Zhu
+    - name: Jiwu Shu
+  topics:
+    - KV Cache
+    - Sparse Attention
+    - Efficient LLMs
+  anthology: https://aclanthology.org/2026.emnlp-main.100/
+  pdf: https://aclanthology.org/2026.emnlp-main.100.pdf
+  summary: >-
+    PRKV improves long-context LLM generation through page-level KV retrieval with
+    CPU offloading. It combines static and dynamic KV selection to improve retrieval
+    accuracy, while contiguous memory indexing and batched transfers reduce retrieval
+    overhead. Across the evaluated models and scenarios, the method improves accuracy
+    and reports up to a 6.75× speedup over state-of-the-art KV retrieval methods.
+  bibtex: |
+    @inproceedings{wu-etal-2026-prkv,
+      title = {{PRKV}: Page Restructed {KV} Cache for High Accuracy and Efficiency {LLM} Generation},
+      author = {Wu, Fang and Gao, Congming and Zhu, Weixi and Shu, Jiwu},
+      booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+      month = oct,
+      year = {2026},
+      address = {Budapest, Hungary},
+      publisher = {Association for Computational Linguistics},
+      pages = {2355--2377},
+      url = {https://aclanthology.org/2026.emnlp-main.100/}
+    }
+
 - id: anchorattention
   title: "AnchorAttention: Difference-Aware Sparse Attention with Stripe Granularity"
   year: 2025
